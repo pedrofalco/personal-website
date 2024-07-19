@@ -39,7 +39,7 @@
     
     <slot/>
 
-    <div class="flex flex-col items-center gap-1.5 mb-1">
+    <div class="flex flex-col items-center gap-3">
         <div class="flex justify-center gap-4">
             <a target="_blank" href={"https://github.com/pedrofalco"}><Icon height={18} icon="mdi:github" /></a>
             <a target="_blank" href={"https://www.linkedin.com/in/pedrofalco/"}><Icon height={18} icon="mdi:linkedin" /></a>
