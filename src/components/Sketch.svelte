@@ -3,9 +3,8 @@
     import * as THREE from 'three';
     import fragment from '$lib/glsl/frag.js';
 
-    // console.log(fragment);
-
     let canvas, title, textColorR, textColorB, textColorG;
+    let loaded = false;
 
     onMount(() => {
 
@@ -61,6 +60,8 @@
         const mesh = new THREE.Mesh(plane, material);
         scene.add(mesh);
 
+        loaded = true;
+
         function animate() {
             requestAnimationFrame(animate);
             material.uniforms.u_time.value += 0.001;
@@ -106,8 +107,13 @@
 
 </script>
 
+{#if !loaded}
+    <div class="absolute left-0 top-0 flex items-center justify-center w-full h-full bg-ivory z-20 overflow-hidden">
+        <span class="animate-spin text-5xl">💭</span>
+    </div>
+{/if}
 
 <div class="flex-grow relative w-full  flex items-center">
-    <h1 class="absolute text-2xl md:text-5xl font-bold text-ivory left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none bg-ivory p-2 bg-opacity-25 bg-inver-1" bind:this={title}>Pedro Falco</h1>
+    <h1 class="absolute text-2xl md:text-5xl font-bold text-ivory left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none bg-white p-2 bg-opacity-20" bind:this={title}>Pedro Falco</h1>
     <canvas class="w-full  border border-dashed border-black" bind:this={canvas}/>
 </div>
