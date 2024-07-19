@@ -13,11 +13,11 @@ export default {
         project_complete: "Complete project:",
         contract_address: "Contract address:",
         bio_0:
-            "Pedro Falco (1997) is an image and sound designer (UBA), artist and teacher. His work and research focus on the reinterpretation of data and the appropriation of the internet. Passionate about real-time processes, he explores generative systems, databases, blockchain technology and procedural modeling to create interactive installations, online experiences, electronic objects and data visualizations.",
+            "Pedro Falco (b. 1997) is a generative artist and designer based in Buenos Aires, Argentina, who writes images with computers. His work explores generative systems, databases, procedural modeling and blockchain technology to create images, interactive installations, online experiences and electronic objects.",
         bio_1:
-            "He has been part of exhibitions in Buenos Aires ('No existe tierra más allá' at CheLa, 'Arte Generativo y Criptoarte' at +CODE), Rio de Janeiro ('NFT Rio') and Bogota ('Exposición Datos + Arte' at Datasketch Gallery). He also held talks and seminars at the Cultural Center of Spain in Buenos Aires (CCEBA), Bafici and TRImarchi 20.",
+            "Through a curious and obsessive approach, his work is a way he found to continue researching and learning in what he likes to call «the identity of the pixel». His work has been exhibited in Buenos Aires, Bogota and Rio de Janeiro and he has held numerous workshops at the Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta and TRImarchi, among others.",
         bio_2:
-            'Since 2019 he has been teaching the subject "Audiovisual Theories" in the "Image and Sound Design" program at the University of Buenos Aires.',
+            'Pedro Falco is a professor at the University of Buenos Aires, Argentina, where he holds a degree in Image and Sound Design.',
         contact: "Feel free to write me for any question :)",
         asterisms_0:
             "An asterism is a collection of stars that, when one connects them mentally, they generate a pattern. Unlike constellations, they are a more general concept that can refer to any identified pattern of stars. The viewer is the one who draws in the sky and gives meaning to their creation.",
@@ -157,11 +157,11 @@ export default {
         installation: "Instalación",
         web_app: "Aplicación Web",
         bio_0:
-            "Pedro Falco (1997) es diseñador de imagen y sonido (UBA), artista y docente. Su trabajo y foco de investigación se centra en la reinterpretación de los datos y en la apropiación de internet. Apasionado por los procesos en tiempo real, explora los sistemas generativos, las bases de datos, la tecnología blockchain y el modelado procedural para crear instalaciones interactivas, experiencias online, objetos electrónicos y visualizaciones de datos.",
+            "Pedro Falco (1997) es un artista generativo y diseñador residente en Buenos Aires, Argentina, que escribe imágenes con computadoras. Su trabajo explora los sistemas generativos, las bases de datos, el modelado procedural y la tecnología blockchain para crear imágenes, herramientras open source, experiencias online, instalaciones interactives y objetos electrónicos.",
         bio_1:
-            "Ha participado en exposiciones en Buenos Aires ('No existe tierra más allá' en CheLa, 'Arte Generativo y Criptoarte' en +CODE), Rio de Janeiro ('NFT Rio') y Bogotá ('Exposición Datos + Arte' en Datasketch Gallery). Además dió charlas y seminarios en en Centro Cultural de España en Buenos Aires (CCEBA), Bafici y TRImarchi 20.",
+            "A través de un enfoque curioso y obsesivo, su trabajo es una forma que encontró para seguir investigando y aprendiendo en lo que le gusta llamar «la identidad del píxel». Su obra ha sido expuesta en Buenos Aires, Bogotá y Río de Janeiro y ha impartido numerosos talleres en el Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta y TRImarchi, entre otros.",
         bio_2:
-            'Desde el 2019 se desempeña como docente en la materia "Teorías Audiovisuales" de la carrera "Diseño de Imagen y Sonido" en la Universidad de Buenos Aires.',
+            'Pedro Falco es docente en la Universidad de Buenos Aires, Argentina, donde se recibió en Diseño de Imagen y Sonido.',
         contact: "Escribime por cualquier consulta :)",
         asterisms_0:
             "Un asterismo es un conjunto de estrellas que, cuando uno las conecta mentalmente, estas generan un patrón. A diferencia de las constelaciones, son un concepto más general que puede referirse a cualquier patrón identificado de estrellas. El espectador es quien dibuja en el cielo y da sentido a su creación.",
