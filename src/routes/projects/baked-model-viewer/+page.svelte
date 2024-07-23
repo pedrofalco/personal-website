@@ -10,7 +10,7 @@
         <hr>
     </div>
 
-    <p>{$t('viewer_0')}</p>
+    <p>{@html $t('viewer_0')}</p>
     <img loading="lazy" class="mx-auto w-full object-cover" src="/media/baked-model-viewer.webp" alt="demo"/>
     <p>{$t('viewer_1')}</p>
     <img loading="lazy" class="mx-auto" src="/media/baked-model-viewer.png" alt="demo"/>
