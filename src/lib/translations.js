@@ -282,6 +282,6 @@ export default {
         srchers_0:"Realicé la landing page de SRCHERS la cual consiste en un terreno procedural hecho en Three.js y una camara interactiva que responde a las coordenadas del mouse.",
         artdao_0:"Desarrollé la web de ArtDAO, un proyecto innovador que incorpora tres estilos distintivos. La página integra Three.js con Svelte para ofrecer una experiencia interactiva y envolvente. Además, cuenta con diversas secciones que capturan y reflejan fielmente el ethos y la esencia del proyecto ArtDAO.",
         cookies:
-            "Página diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. Sólo cachea las imágenes. La web está hosteada @ netlify.com y open source @ github.com/pedrofalco 🤝",
+            "Página diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. Sólo cachea las imágenes. La web está hosteada @ netlify.com y open source @ github.com/pedrofalco",
     },
   };
