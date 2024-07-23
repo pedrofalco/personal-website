@@ -1,13 +1,13 @@
 <script>
 	import { onMount } from "svelte";
-    import { page } from '$app/stores';  
+    import { fly } from "svelte/transition";  
     import Icon from '@iconify/svelte';
     import "/src/style.css"
 
     export let data;
 
     let { t, locale, locales } = data;
-    let isHomePage = false;
+    let cookies = false;
 
     onMount(()=> {
         $locale = navigator.language.startsWith('es') ? 'es' : 'en';
@@ -15,7 +15,7 @@
 
 </script>
 
-<div class="w-full 2xl:w-[1440px] min-h-screen mx-auto font-jet-brains-mono text-sm md:text-base flex flex-col justify-between gap-2 tracking-tight px-2 md:px-10">
+<div class="w-full 2xl:w-[1440px] min-h-screen mx-auto font-jet-brains-mono text-sm md:text-base flex flex-col justify-between gap-3 tracking-tight px-2 md:px-10">
     <nav class="sticky w-full top-0 bg-ivory flex items-center justify-between py-1 md:py-3 z-10">
         <div class="flex gap-4">
             <button class="outline-none hover:bg-black hover:text-ivory p-1 rounded-xs" on:click={() => { $locale = $locale === 'en' ? 'es' : 'en' }}>
@@ -39,15 +39,21 @@
     
     <slot/>
 
-    <div class="flex flex-col items-center gap-3">
-        <div class="flex justify-center gap-4">
+    <div class="flex justify-between items-center pb-2">
+        <div class="outline-none flex items-center gap-1 w-full">
+            <button on:click={() => cookies = !cookies}>
+                🤝
+            </button>
+            {#if cookies}
+                <span transition:fly={{ x: -25, duration: 250 }} class="text-2xs tracking-tighter -z-10">{$t("cookies")}</span>
+            {/if}
+        </div>
+
+        <div class="flex justify-center gap-2">
             <a target="_blank" href={"https://github.com/pedrofalco"}><Icon height={18} icon="mdi:github" /></a>
             <a target="_blank" href={"https://www.linkedin.com/in/pedrofalco/"}><Icon height={18} icon="mdi:linkedin" /></a>
             <a target="_blank" href={"https://twitter.com/_pedrofalco"}><Icon height={18} icon="mdi:twitter" /></a>
             <a target="_blank" href={"https://www.instagram.com/pedrofalco_/"}><Icon height={18} icon="mdi:instagram" /></a>
         </div>
-        <p class="text-center text-2xs tracking-tight">
-            {$t("footer")}
-        </p>
     </div>
 </div>
