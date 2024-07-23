@@ -2,7 +2,6 @@ export default {
     en: {
         proyectos: ".Projects",
         bio: ".About",
-        footer: "The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco 🤝",
         gen_art: "Generative Art",
         inst: "Installation",
         web_app: "Web Application",
@@ -136,12 +135,11 @@ export default {
         srchers_0: "I've coded the SRCHERS landing page which consists of a procedural terrain made in Three.js and an interactive camera that responds to mouse coordinates.",
         artdao_0:"I developed the ArtDAO website, an innovative project that incorporates three distinctive color styles. The site integrates Three.js with Svelte to offer an interactive and immersive experience. In addition, it has several sections that capture and faithfully reflect the ethos and essence of the ArtDAO project.",
         cookies:
-        "The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco 🤝",
+        "The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco",
     },
     es: {
         proyectos: ".Proyectos",
         bio: ".Bio",
-        footer: "Página diseñada contemplando tu privacidad, sin cookies, publicidad o pedido de ningun tipo. Sólo cachea las imágenes. La web está hosteada @ netlify.com y open source @ github.com/pedrofalco 🤝",
         gen_art: "Arte Generativo",
         inst: "Instalación",
         web_app: "Aplicación Web",
