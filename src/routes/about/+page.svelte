@@ -1,9 +1,10 @@
 <script>
+    import { fly } from 'svelte/transition';
     export let data;
     let { t } = data;
 </script>
 
-<main class="md:w-2/3 mx-auto flex flex-col justify-center gap-6 md:gap-10 px-1">
+<main in:fly={{duration: 250}} class="md:w-2/3 mx-auto flex flex-col justify-center gap-6 md:gap-10 px-1">
     <div>
         <h1 class="text-xl font-semibold">{$t('about_description')}</h1>
         <hr>
