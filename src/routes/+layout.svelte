@@ -31,7 +31,7 @@
             💭
         </a>
 
-        <ul class="flex md:gap-4">
+        <ul class="flex md:gap-4 uppercase font-bold">
             <a class="hover:bg-black hover:text-ivory p-1 rounded-xs" href="/projects"><li>{$t("proyectos")}</li></a>
             <a class="hover:bg-black hover:text-ivory p-1 rounded-xs" href="/about"><li>{$t("bio")}</li></a>
         </ul>

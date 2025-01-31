@@ -1,7 +1,7 @@
 export default {
     en: {
-        proyectos: ".Projects",
-        bio: ".About",
+        proyectos: "Works",
+        bio: "About",
         gen_art: "Generative Art",
         inst: "Installation",
         web_app: "Web Application",
@@ -138,8 +138,8 @@ export default {
         "The site was designed keeping your privacy in mind, with no cookies, advertising or requests of any kind. It only caches the images. The website is hosted @ netlify.com and open source @ github.com/pedrofalco",
     },
     es: {
-        proyectos: ".Proyectos",
-        bio: ".Bio",
+        proyectos: "Proyectos",
+        bio: "Bio",
         gen_art: "Arte Generativo",
         inst: "Instalación",
         web_app: "Aplicación Web",
