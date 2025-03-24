@@ -26,7 +26,6 @@
     <meta name="description" content="Creative developer focused on interactive experiences, digital art, and web development" /> <!-- Shows in search results -->
     <meta name="keywords" content="creative developer, digital art, web development, interactive experiences, Pedro Falco" /> <!-- Search keywords -->
     <meta name="robots" content="index, follow" /> <!-- Allows search engines to index and follow links -->
-    <meta name="language" content={$locale === 'es' ? 'Spanish' : 'English'} /> <!-- Dynamic language based on user selection -->
     <meta name="author" content="Pedro Falco" /> <!-- Website author -->
     
     <!-- Open Graph Tags - For Facebook and other social media platforms -->
@@ -37,11 +36,11 @@
     <meta property="og:image" content="https://pedrofalco.com/og-image.png" /> <!-- Image shown in social shares (1200x630px recommended) -->
 
     <!-- Twitter Card Tags - Specifically for Twitter sharing -->
-    <meta property="twitter:card" content="summary_large_image" /> <!-- Large image card style -->
-    <meta property="twitter:url" content="https://pedrofalco.com/" /> <!-- Your website URL -->
-    <meta property="twitter:title" content="Pedro Falco - Creative Developer and Designer from Buenos Aires, Argentina." /> <!-- Title in Twitter shares -->
-    <meta property="twitter:description" content="Creative developer focused on interactive experiences, digital art, and web development" /> <!-- Description in Twitter shares -->
-    <meta property="twitter:image" content="https://pedrofalco.com/og-image.png" /> <!-- Image for Twitter (1200x675px recommended) -->
+    <meta name="twitter:card" content="summary_large_image" /> <!-- Large image card style -->
+    <meta name="twitter:url" content="https://pedrofalco.com/" /> <!-- Your website URL -->
+    <meta name="twitter:title" content="Pedro Falco - Creative Developer and Designer from Buenos Aires, Argentina." /> <!-- Title in Twitter shares -->
+    <meta name="twitter:description" content="Creative developer focused on interactive experiences, digital art, and web development" /> <!-- Description in Twitter shares -->
+    <meta name="twitter:image" content="https://pedrofalco.com/og-image.png" /> <!-- Image for Twitter (1200x675px recommended) -->
 
     <!-- 
         Structured Data - Helps search engines understand your content
@@ -56,10 +55,10 @@
             "url": "https://pedrofalco.com",
             "jobTitle": "Creative Developer",
             "sameAs": [
-                "https://github.com/pedrofalco",
-                "https://www.linkedin.com/in/pedrofalco/",
-                "https://twitter.com/_pedrofalco",
-                "https://www.instagram.com/pedrofalco_/"
+                "https:\/\/github.com\/pedrofalco",
+                "https:\/\/www.linkedin.com\/in\/pedrofalco\/",
+                "https:\/\/twitter.com\/_pedrofalco",
+                "https:\/\/www.instagram.com\/pedrofalco_\/"
             ]
         }
     </script>
