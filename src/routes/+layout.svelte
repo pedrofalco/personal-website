@@ -15,11 +15,6 @@
 
 </script>
 
-<!-- 
-    Meta tags are now in app.html for better social media compatibility.
-    Only dynamic content should be added here using svelte:head.
--->
-
 <div class="w-full 2xl:w-[1440px] min-h-screen mx-auto font-jet-brains-mono text-sm md:text-base flex flex-col justify-between gap-3 tracking-tight px-2 md:px-10">
     <nav class="sticky w-full top-0 bg-ivory flex items-center justify-between py-1 md:py-3 z-10">
         <div class="flex gap-4">
