@@ -29,6 +29,29 @@
 		<meta property="twitter:title" content="Pedro Falco - Creative Developer and Designer" />
 		<meta property="twitter:description" content="Creative developer focused on interactive experiences, digital art, and web development. Based in Buenos Aires, Argentina." />
 		<meta property="twitter:image" content="https://pedrofalco.com/og-image.png" />
+
+		<!-- Structured Data -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Pedro Falco",
+			"url": "https://pedrofalco.com",
+			"jobTitle": "Creative Developer and Designer",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Buenos Aires",
+				"addressCountry": "Argentina"
+			},
+			"sameAs": [
+				"https://github.com/pedrofalco",
+				"https://www.linkedin.com/in/pedrofalco/",
+				"https://twitter.com/_pedrofalco",
+				"https://www.instagram.com/pedrofalco_/"
+			]
+		}
+		</script>
+		
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
