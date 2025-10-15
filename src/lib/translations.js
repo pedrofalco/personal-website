@@ -157,7 +157,7 @@ export default {
         installation: "Instalación",
         web_app: "Aplicación Web",
         bio_0:
-            "Pedro Falco (1997) es un desarrollador creativo y tecnólogo residente en Buenos Aires, Argentina. Se especializa en sistemas generativos, modelado procedural y tecnología blockchain, creando instalaciones interactivas, experiencias digitales y objetos electrónicos.",
+            "Pedro Falco (1997) es un desarrollador creativo y tecnológico residente en Buenos Aires, Argentina. Se especializa en sistemas generativos, modelado procedural y tecnología blockchain, creando instalaciones interactivas, experiencias digitales y objetos electrónicos.",
         bio_1:
             "A través de un enfoque curioso y obsesivo, su trabajo es una forma que encontró para seguir investigando y aprendiendo en lo que le gusta llamar «la identidad del píxel». Su obra ha sido expuesta en Buenos Aires, Bogotá y Río de Janeiro y ha impartido numerosos talleres en el Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta y TRImarchi, entre otros. Más allá de su práctica artística, colabora con clientes y estudios en proyectos comerciales, tendiendo puentes entre el arte experimental y el desarrollo profesional.",
         bio_2:

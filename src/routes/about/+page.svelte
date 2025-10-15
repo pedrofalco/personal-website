@@ -27,7 +27,7 @@
             <hr>
             <p>📮 {$t('contact')}</p>
             <p><a class="underline" href={"#"}>fpfalco@gmail.com</a></p>
-            <p>CV: <a class="underline" href="../media/pedro-falco-cv-ES.pdf" target="_blank">ES</a> - <a class="underline" href="../media/pedro-falco-cv-EN.pdf" target="_blank">EN</a></p>
+            <!-- <p>CV: <a class="underline" href="../media/pedro-falco-cv-ES.pdf" target="_blank">ES</a> - <a class="underline" href="../media/pedro-falco-cv-EN.pdf" target="_blank">EN</a></p> -->
         </div>
       </div>
 </main>
