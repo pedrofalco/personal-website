@@ -8,13 +8,14 @@ export default {
         vr: "Virtual Reality",
         work: "Work:",
         proj_description: "Designs that merge research, programming, art and data.",
-        about_description: "Designer, Artist and Educator. I write images with computers.",
+        about_description: "Designer, Artist and Educator.",
+        about_subtitle: "I write images with computers.",
         project_complete: "Complete project:",
         contract_address: "Contract address:",
         bio_0:
-            "Pedro Falco (b. 1997) is a generative artist and designer based in Buenos Aires, Argentina, who writes images with computers. His work explores generative systems, databases, procedural modeling and blockchain technology to create images, interactive installations, online experiences and electronic objects.",
+            "Pedro Falco (b. 1997) is a creative developer and technologist based in Buenos Aires, Argentina. He specializes in generative systems, procedural modeling, and blockchain technology, creating interactive installations, digital experiences, and electronic objects.",
         bio_1:
-            "Through a curious and obsessive approach, his work is a way he found to continue researching and learning in what he likes to call «the identity of the pixel». His work has been exhibited in Buenos Aires, Bogota and Rio de Janeiro and he has held numerous workshops at the Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta and TRImarchi, among others.",
+            "Through a curious and obsessive approach, his work is a way he found to continue researching and learning in what he likes to call «the identity of the pixel». His work has been exhibited in Buenos Aires, Bogota and Rio de Janeiro and he has held numerous workshops at the Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta and TRImarchi, among others. Beyond his artistic practice, he collaborates with clients and studios on commercial projects, bridging the gap between experimental art and professional development.",
         bio_2:
             'Pedro Falco is a professor at the University of Buenos Aires, Argentina, where he holds a degree in Image and Sound Design.',
         contact: "Feel free to write me for any question :)",
@@ -146,7 +147,8 @@ export default {
         vr: "Realidad Virtual",
         work: "Obra:",
         proj_description: "Diseños que combinan investigación, programación, arte y datos.",
-        about_description: "Diseñador, Artista y Docente. Escribo imágenes con computadoras.",
+        about_description: "Diseñador, Artista y Docente.",
+        about_subtitle: "Escribo imágenes con computadoras.",
         project_complete: "Proyecto completo:",
         contract_address: "Dirección del contrato:",
         proj_header: "Projectos.",
@@ -155,9 +157,9 @@ export default {
         installation: "Instalación",
         web_app: "Aplicación Web",
         bio_0:
-            "Pedro Falco (1997) es un artista generativo y diseñador residente en Buenos Aires, Argentina, que escribe imágenes con computadoras. Su trabajo explora los sistemas generativos, las bases de datos, el modelado procedural y la tecnología blockchain para crear imágenes, herramientras open source, experiencias online, instalaciones interactives y objetos electrónicos.",
+            "Pedro Falco (1997) es un desarrollador creativo y tecnólogo residente en Buenos Aires, Argentina. Se especializa en sistemas generativos, modelado procedural y tecnología blockchain, creando instalaciones interactivas, experiencias digitales y objetos electrónicos.",
         bio_1:
-            "A través de un enfoque curioso y obsesivo, su trabajo es una forma que encontró para seguir investigando y aprendiendo en lo que le gusta llamar «la identidad del píxel». Su obra ha sido expuesta en Buenos Aires, Bogotá y Río de Janeiro y ha impartido numerosos talleres en el Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta y TRImarchi, entre otros.",
+            "A través de un enfoque curioso y obsesivo, su trabajo es una forma que encontró para seguir investigando y aprendiendo en lo que le gusta llamar «la identidad del píxel». Su obra ha sido expuesta en Buenos Aires, Bogotá y Río de Janeiro y ha impartido numerosos talleres en el Centro Cultural de España en Buenos Aires, Bafici, Centro Cultural Recoleta y TRImarchi, entre otros. Más allá de su práctica artística, colabora con clientes y estudios en proyectos comerciales, tendiendo puentes entre el arte experimental y el desarrollo profesional.",
         bio_2:
             'Pedro Falco es docente en la Universidad de Buenos Aires, Argentina, donde se recibió en Diseño de Imagen y Sonido.',
         contact: "Escribime por cualquier consulta :)",

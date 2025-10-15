@@ -5,8 +5,9 @@
 </script>
 
 <main in:fly={{duration: 250}} class="md:w-2/3 mx-auto flex flex-col justify-center gap-6 md:gap-10 px-1">
-    <div>
+    <div class="space-y-1">
         <h1 class="text-xl font-semibold">{$t('about_description')}</h1>
+        <h2 class="text-base font-medium">{$t('about_subtitle')}</h2>
         <hr>
     </div>
 
